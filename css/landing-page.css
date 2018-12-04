@@ -83,13 +83,13 @@ header.masthead h1 {
 }
 
 .features-icons {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .features-icons .features-icons-item {
   /* max-width: 20rem; */
-  margin-top: 3rem; 
+  margin-top: 2rem; 
 }
 
 .features-icons .features-icons-item .features-icons-icon {
