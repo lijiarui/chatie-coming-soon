@@ -20,37 +20,26 @@ h6 {
 
 nav.masthead {
   background-color: #0072bc;
-  /* background: url("../img/bg-masthead.jpg") no-repeat center center; */
   background-size: cover;
 }
 
-nav.masthead .overlay {
-  position: absolute;
-  background-color: #212529;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0.3;
+nav.masthead img {
+  width: 40px;
+  height: 40px;
+  margin-top: -10px;
+}
+
+nav.masthead h1 {
+  margin-top:10px;
+  margin-left: 10px;
 }
 
 header.masthead {
   position: relative;
   background-color: #0072bc;
-  /* background: url("../img/bg-masthead.jpg") no-repeat center center; */
   background-size: cover;
   padding-top: 3rem;
   padding-bottom: 3rem;
-}
-
-header.masthead .overlay {
-  position: absolute;
-  background-color: #212529;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0.3;
 }
 
 header.masthead h1 {
@@ -58,10 +47,6 @@ header.masthead h1 {
 }
 
 @media (min-width: 768px) {
-  /* header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
-  } */
   header.masthead h1 {
     font-size: 3rem;
   }
@@ -73,7 +58,6 @@ header.masthead h1 {
 }
 
 .features-icons .features-icons-item {
-  /* max-width: 20rem; */
   margin-top: 2rem; 
 }
 
