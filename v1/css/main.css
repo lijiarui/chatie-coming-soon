@@ -417,7 +417,9 @@ input.input100 {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0,0,0,0.8);
+  /* background-color: rgba(0,0,0,0.8); */
+  background-color: #0072bc;
+  /* opacity: 0.8; */
 }
 
 .overlay1::after {
@@ -440,7 +442,7 @@ input.input100 {
 
 /*---------------------------------------------*/
 .wrap-pic1 {
-  width: 50px;
+  width: 1000px;
 }
 .wrap-pic1 img {
   max-width: 50px;
